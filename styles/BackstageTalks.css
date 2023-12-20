@@ -1,0 +1,30 @@
+body{
+  margin:0;
+  padding:0;
+
+}
+
+section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#section1{
+  background-color: aqua;
+}
+
+#section2{
+  background-color: brown;
+}
+
+#section3{
+  background-color: blueviolet;
+}
+
+#section4{
+  background-color: crimson;
+}
