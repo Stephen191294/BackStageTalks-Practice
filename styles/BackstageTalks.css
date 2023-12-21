@@ -1,7 +1,7 @@
 body{
   margin:0;
   padding:0;
-background-color: aqua;
+
 }
 
 section{
@@ -13,18 +13,55 @@ section{
   font-size: 20px;
 }
 
+p a{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+   z-index: 1;
+}
+
+img{
+  height: 100vh;
+  
+}
+
+.resizable-image{
+  width: 400px;
+  height: 100px;
+  position: fixed;
+  z-index: 1;
+}
+
+
+
 #section1{
-  background-color: aqua;
+  background-color: 
+  #e30512 ;
 }
 
 #section2{
-  background-color: brown;
+  background-color: #1d3fbb;
 }
 
 #section3{
-  background-color: blueviolet;
+  background-color: 
+  #ffbe00 ;
 }
 
 #section4{
-  background-color: crimson;
+  background-color: #ff651a ;
+}
+
+#section5{
+  background-color: 
+  #00c1b5 ;
+}
+
+
+#section6{
+  background-color: white;
+}
+
+#section7{
+  background-color:#ff3399 ;
 }
