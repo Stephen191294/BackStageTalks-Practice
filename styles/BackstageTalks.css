@@ -79,6 +79,16 @@ img{
   
 }
 
+.container2{
+  max-height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+
+.child{
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+}
 
 #section1{
   background-color: 
