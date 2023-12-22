@@ -1,18 +1,19 @@
 body{
   margin:0;
   padding:0;
-
+  
 }
 
-section{
+section {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-style: italic;
   font-size: 20px;
+ 
+  
 }
-
 
 header{
   position: fixed;
@@ -24,14 +25,11 @@ header{
   z-index:2;
 }
 
-
-
 footer{
      position: fixed;
       bottom: 0;
       left: 0;
       width: 100%;
-      padding: 10px;
       color: black;
       z-index: 1000;
       display: flex;
@@ -39,7 +37,7 @@ footer{
 }
 
 
- a{
+a{
   display: flex;
   flex-direction: column;
   margin-right: 20px;
@@ -55,6 +53,7 @@ img{
   
 }
 
+
 .container{
   font-weight: 800;
 }
@@ -65,13 +64,13 @@ img{
   margin-top: 20px;
   margin-left: 10px;
 }
+
 .container1 p{
   margin: 0;
-  margin-left: 1010px;
+  margin-left: 980px;
+  font-size: 20px;
   
 }
-
-
 
 .container1 img{
   width: 300px;
